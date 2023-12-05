@@ -8,7 +8,7 @@ export class Lavadora extends Electrodomestico{
         
     constructor(carga: number, color: string, energia: string, precioBase: number, peso: number){
         super(color, energia, precioBase, peso);
-		this.CARGA = carga;
+		this.carga = carga;
     }
         precioFinal() {
 		let total: number = super.precioFinal();
